@@ -65,6 +65,7 @@ padding: 10px;
     margin-top: 50px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 .heading{
     font-size: xx-large;
@@ -75,4 +76,13 @@ padding: 10px;
 .ptext{
     margin-top: 10px;
     color: white;
+}
+.fedpodam .portfolio{
+    width: 50%;
+}
+.pic{
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0,0,0,4;
 }

@@ -9,10 +9,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbar{
-background-color: crimson;
+background-color: 0,0,0,2;
+padding: 10px;
 }
 
 .list{
@@ -22,5 +24,55 @@ background-color: crimson;
 }
 .links{
     text-decoration: none;
+    font-size: 14px;
+    font-style: oblique;
+    color: maroon;
+}
+.link-list{
+    background-color: white;
+    border-radius:10px;
+    padding: 5px;
+    color: maroon;
+}
+.link-list:hover{
+    background-color:maroon;
+}
+.link-list:hover .links{
+    background-color: maroon;
+    color: white;
+}
+.txtbox{
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    outline: none;
+
+}
+.btn{
+    padding:5px;
+    border-radius: 10px;
+    color: white;
+    background-color: maroon;
+}
+.btn:hover{
+    background-color: white;
+    color: maroon;
+}
+.main{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+}
+.heading{
+    font-size: xx-large;
+    color: white;
+    padding: 10px;
 }
 
+.ptext{
+    margin-top: 10px;
+    color: white;
+}
